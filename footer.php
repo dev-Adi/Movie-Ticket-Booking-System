@@ -2,10 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
   </head>
   <body>
-    <!-- footer -->
     <footer class="page-footer orange">
       <div class="footer-copyright">
         <div class="container">
