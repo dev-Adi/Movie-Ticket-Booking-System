@@ -31,17 +31,7 @@
       <h1 class="header center orange-text">
       <?php
       session_start();
-        // // echo "<h1 class="header center orange-text">";
-        // if (isset($_SESSION['username'])) {
-        //   $user = $_SESSION['username'];
-          // echo "Welcome ".$_SESSION['username'].
-          // echo $_SESSION['username'];
-        // }
-        // echo "</h1>";
         include('connection.php');
-	       // session_start();
-         // echo $_SESSION['username'];
-         // echo $_SESSION['username'];
          if (isset($_SESSION['username']) && !empty($_SESSION['username']) ) {
           echo "Welcome ".$_SESSION['username'];
           }
@@ -53,11 +43,6 @@
             </script>
             <?php
           }
-
-	        // if(!isset($_SESSION['username']) == ''){
-		      //     // echo "$_SESSION['username']";
-          //     echo "string";
-	        //    }
         ?>
       </h1>
 
