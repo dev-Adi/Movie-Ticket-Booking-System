@@ -33,7 +33,7 @@
       session_start();
         
         include('connection.php');
-	       
+
          if (isset($_SESSION['username']) && !empty($_SESSION['username']) ) {
           echo "Welcome ".$_SESSION['username'];
           }
